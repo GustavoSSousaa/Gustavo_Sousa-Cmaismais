@@ -13,9 +13,8 @@ int main() {
 	scanf("%d%*c",&anoau);
 	for (ano= 2019; ano<=anoau; ano++){
 		sal = sal + (sal * (aumento / 100));
-		if (ano >= 2020){
-			aumento = aumento*2;
-		}
+		aumento = aumento*2;
+
 
 	}
 	printf("O salario atual é R$ %.2f, e o ano é %d\n", sal, anoau);
